@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(253, 130, 85);
+}
+
+button{
+    cursor: pointer;
+}
+
+.containers{
+    display: flex;
+    flex-direction: column;
+}
+
+.compl{
+    margin-top: 10px;
+    width:100%;
+    height:350px;
+    border: 3px solid black;
+    border-radius: 10%;
+    background-color: lightblue;
+}
+
+.ins{
+    margin-top: 15px;
+    width:100%;
+    height:350px;
+    border: 3px solid black;
+    border-radius: 10%;
+    background-color: darkkhaki;
+}
+
+.good{
+    text-align: center;
+    font-size: 45px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    color:rgb(14, 185, 22)
+}
+
+.bad{
+    text-align: center;
+    font-size: 45px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    color:rgb(211, 18, 18)
+}
+
+.complement{
+    text-align: center;
+    font-size: 33px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    color:rgb(61, 61, 190);
+    padding-top: 20px;
+}
+
+.insult{
+    text-align: center;
+    font-size: 33px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    color:rgb(61, 61, 190);
+    padding-top: 20px;
+}
+
+.request-complement{
+    position: relative;
+    top: 10%;
+    left: 10%;
+    padding:20px;
+    width:80%;
+    height:60px;
+    border: 3px solid black;
+    background-color: rgb(118, 204, 32);
+    font-size: 30px;
+    text-align:center;
+}
+
+.request-insult{
+    position: relative;
+    top: 10%;
+    left: 10%;
+    padding:20px;
+    width:80%;
+    height:60px;
+    border: 3px solid black;
+    background-color: rgb(231, 66, 16);
+    font-size: 30px;
+    text-align:center;
+}
+
+.request-complement:hover{
+    font-weight: bolder;
+    opacity: 0.7;
+}
+
+.request-complement:active{
+    background-color: rgb(48, 90, 9);
+}
+
+.request-insult:hover{
+    font-weight: bolder;
+    opacity: 0.7;
+}
+
+.request-insult:active{
+    background-color: rgba(122, 17, 17, 0.87);
+}
